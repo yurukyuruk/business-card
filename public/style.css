@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.app {
+    width: 550px;
+    background-color: rgba(35, 37, 44, 1);
+    
+}
+.info, .about, .interests{
+    width: 317px;
+    margin-left: 116px;
+    background-color: rgba(26, 27, 33, 1);
+    margin-bottom: 0;
+    
+}
+.my-photo {
+    width: 317px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.my-name {
+    margin-left: 80px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+.my-job {
+    margin-top: 9px;
+    margin-bottom: 0;
+    margin-left: 70px;
+    color: rgba(243, 191, 153, 1);
+    font-family: sans-serif;
+}
+.my-website {
+    color: rgba(245, 245, 245, 1);
+    margin-top: 13px;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+.buttons, .email-button, .linkedin-button {
+    display: flex;
+    justify-content: center;
+}
+.email-button {
+    width: 115px;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px #D1D5DB solid;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.linkedin-button {
+    width: 115px;
+    height: 34px;
+    align-items: center; 
+    justify-content: center;
+    background-color: rgba(80, 147, 226, 1);
+    margin-left: 35px;
+    border-radius: 6px;
+    text-decoration: none;  
+}
+.email-logo {
+    width: 12.8px;
+    height: 9.6px; 
+    margin-right: 9px;
+}
+.email {
+    font-size: 14px;
+    color: #374151;
+    font-family: sans-serif;
+}
+.linkedin-logo {
+    width: 12.8px;
+    height: 9.6px; 
+    margin-right: 9px;
+}
+.linkedin {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    font-family: sans-serif;
+}
+.about {
+    margin-top: -20px;
+    padding: 40px 23px 0 23px;
+}
+.about-header {
+    color: rgba(245, 245, 245, 1);
+    font-family: sans-serif;
+}
+.about-paragraph {
+    color: rgba(220, 220, 220, 1);
+    margin-top: -12px;
+    font-family: sans-serif;
+}
+.interests {
+    margin-top: -20px;
+    padding: 1px 23px 0 23px;
+}
+.interests-header {
+    color: rgba(245, 245, 245, 1);
+    font-family: sans-serif;
+}
+.interests-paragraph {
+    color: rgba(220, 220, 220, 1);
+    margin-top: -12px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+}
+.footer {
+    background-color: #161619;
+    width: 317px;
+    height: 64px;
+    margin-left: 116px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.twitter-logo, .facebook-logo, .instagram-logo, .github-logo {
+    height: 25px;
+}
+.twitter-logo {
+    margin-right: 24px
+}
+.facebook-logo {
+    margin-right: 24px
+}
+.instagram-logo {
+    margin-right: 24px
+}
